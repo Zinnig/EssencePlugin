@@ -1,0 +1,50 @@
+api-version: 1.13
+name: Essence
+main: net.zinnig.main.Main
+version: 2.0_3
+
+commands:
+   gm:
+      description: Change your gamemode!
+   random:
+      description: Tp you to a random position!
+   find:
+      description: Find a player!
+   fly:
+      description: Fly!
+      aliases: f
+   lucky:
+      description: Just be lucky!
+   head:
+      description: Wear everything!
+   heal:
+      description: Heal yourself and others!
+   feed:
+      description: Feed yourself and others!
+   setwarp:
+      description: Set a warp point!
+   delwarp:
+      description: Delete a warp point!
+   warp:
+      description: Teleport yourself to a warp point!
+   warplist:
+      description: List all warps!
+   vanish:
+      description: Hide yourself!
+      aliases: v
+   enderchest:
+      description: Open the enderchest from you or from another one
+      aliases: ec
+   inventory:
+      description: Open the inventory of another one
+      aliases: inv
+   god:
+      description: Be invulnerable!
+   ban:
+      description: Ban someone!
+   unban:
+      description: Pardon someone!
+   essence:
+      description: Admin-Tools
+   toggleautosmelt:
+      description: Toggle the Auto-Smelt Feature.
